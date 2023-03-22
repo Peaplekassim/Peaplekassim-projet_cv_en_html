@@ -1,0 +1,92 @@
+header, main {
+    box-sizing: border-box;
+    background-color: rgba(196, 192, 192, 0.90);
+    height: 100%;
+    width: 70%;
+    padding: 0;
+    margin: 0 auto;
+    
+}
+header{
+    padding: 15px 0 10px 15px;
+    background-color: rgba(140, 159, 169, 0.882);
+    display: flex;
+    flex-grow: row;
+    justify-content: flex-start;
+    
+}
+
+header div img{
+
+    border-radius: 100px;
+
+}
+
+
+main{
+    padding: 0px 0 0px 1px;
+    border-right: 2px solid rgb(69, 68, 68);
+    border-bottom: 2px solid rgb(62, 60, 60);
+    display: flex;
+    flex-grow: row;
+    justify-content: flex-start;
+
+}
+
+#side-bare{
+    background-color:#353e4d /*rgb(64, 92, 28)*/;
+    color: rgba(255, 255, 255, 0.892);
+    padding: 10px;
+}
+#side-bare #info{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#side-bare #info div{
+    display: flex;
+    
+
+}
+.info-id span {
+    padding: 4px;
+    font-size: 14px;
+}
+#competence,#langue{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#competence ul,#langue ul {
+    font-size: 15px;
+}
+
+
+
+#text-descrip  {
+       
+       padding: 0 20px;
+}
+#text-descrip h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
+#text-descrip div p{
+    width: 95%;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 0px;
+   color: rgba(81, 96, 108, 0.972);
+}
+
+#contente{
+    background-color: white;
+    padding: 0px 20px;
+    margin-top: 0;
+}
+
+
+#experience div {
+    font-size: 14px;
+    padding-top: 0;
+}
